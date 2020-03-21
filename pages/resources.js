@@ -1,6 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
-const Index = () => <Layout>resources</Layout>;
+const Index = () => <div>resources</div>;
 
 export default Index;
