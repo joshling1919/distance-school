@@ -2,6 +2,12 @@ import React from 'react';
 import Nav from '../nav';
 import '../scss/Header.scss';
 
+const navItems = [
+  { text: 'Guides', href: '/guides/for-teachers' },
+  { text: 'Resources', href: '/' },
+  { text: 'Questions', href: '/questions' },
+];
+
 const Header = () => (
   <div className="header">
     <div className="header-content">
@@ -12,7 +18,7 @@ const Header = () => (
         Remote learning resources for teachers and parents in the wake of
         COVID-19
       </p>
-      <Nav className="header-content__elem" />
+      <Nav className="header-content__elem" navItems={navItems} />
     </div>
     <hr />
   </div>

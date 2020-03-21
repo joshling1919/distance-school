@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Index = () => <div>questions</div>;
+const Questions = () => <div>Questions</div>;
 
-export default Index;
+export default Questions;
