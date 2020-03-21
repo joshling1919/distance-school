@@ -4,7 +4,7 @@ import { colors } from '../../theme';
 
 const navItems = [
   { text: 'Resources', href: '/' },
-  { text: 'Guides', href: '/guides/for-teachers' },
+  { text: 'Guides', href: '/guides' },
   { text: 'Questions', href: '/questions' },
 ];
 
@@ -18,7 +18,9 @@ const Header = () => (
         Remote learning resources for teachers and parents in the wake of
         COVID-19
       </p>
-      <Nav className="header-content__elem" navItems={navItems} />
+      <div className="nav-container">
+        <Nav navItems={navItems} />
+      </div>
     </div>
     <hr />
     <style jsx>{`
@@ -28,9 +30,17 @@ const Header = () => (
         justify-content: space-between;
       }
 
+      .nav-container {
+        font-size: 16px;
+      }
+
       h1 {
         font-size: 24px;
         font-weight: bold;
+      }
+
+      p {
+        font-size: 12px;
       }
 
       .header-content {
@@ -38,7 +48,7 @@ const Header = () => (
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
-        padding: 30px;
+        padding: 20px 30px;
       }
       .header-content__elem {
         margin-bottom: 20px;

@@ -10,9 +10,20 @@ const navItems = [
 ];
 
 const Guides = ({ children }) => (
-  <div>
-    <Nav navItems={navItems} />
-    <div>{children}</div>
+  <div className="guides-container">
+    <div className="guides-nav-container">
+      <Nav className="guides-nav" navItems={navItems} />
+    </div>
+    <div className="guides-content">{children}</div>
+    <style jsx>{`
+      .guides-nav-container {
+        margin-top: 20px;
+        font-size: 12px;
+      }
+      .guides-content {
+        padding: 20px;
+      }
+    `}</style>
   </div>
 );
 

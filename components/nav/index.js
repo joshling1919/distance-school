@@ -20,6 +20,7 @@ const NavBar = ({ navItems }) => {
       })}
       <style jsx>{`
         .nav-bar {
+          font-size: inherit;
           display: flex;
           justify-content: center;
         }
