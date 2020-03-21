@@ -15,7 +15,7 @@ const Layout = props => (
       <meta charSet="utf-8" />
     </Head>
     <Header />
-    <div className="Content">{props.children}</div>
+    <div className="content">{props.children}</div>
   </div>
 );
 

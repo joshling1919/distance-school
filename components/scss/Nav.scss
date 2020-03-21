@@ -1,7 +1,21 @@
-.NavBar {
+@import '../../theme/theme';
+
+.nav-bar {
   display: flex;
   justify-content: center;
   a {
     display: inline-block;
+  }
+  a::after {
+    content: '|';
+    margin: 10px;
+    color: black;
+  }
+  a:last-child::after {
+    display: none;
+  }
+
+  .active {
+    font-weight: bold;
   }
 }
