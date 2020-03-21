@@ -1,10 +1,10 @@
 import React from 'react';
 import Nav from '../nav';
-import '../scss/Header.scss';
+import { colors } from '../../theme';
 
 const navItems = [
-  { text: 'Guides', href: '/guides/for-teachers' },
   { text: 'Resources', href: '/' },
+  { text: 'Guides', href: '/guides/for-teachers' },
   { text: 'Questions', href: '/questions' },
 ];
 
@@ -21,6 +21,38 @@ const Header = () => (
       <Nav className="header-content__elem" navItems={navItems} />
     </div>
     <hr />
+    <style jsx>{`
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding: 30px;
+      }
+      .header-content__elem {
+        margin-bottom: 20px;
+      }
+
+      hr {
+        border-top: 1px solid ${colors.highlight};
+        width: 100%;
+      }
+
+      .header-period {
+        color: ${colors.highlight};
+      }
+    `}</style>
   </div>
 );
 

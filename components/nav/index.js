@@ -2,7 +2,6 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
-import '../scss/Nav.scss';
 
 const NavBar = ({ navItems }) => {
   const router = useRouter();
@@ -19,6 +18,28 @@ const NavBar = ({ navItems }) => {
           </Link>
         );
       })}
+      <style jsx>{`
+        .nav-bar {
+          display: flex;
+          justify-content: center;
+        }
+        a {
+          display: inline-block;
+        }
+        a::after {
+          content: '|';
+          margin: 10px;
+          color: black;
+          font-weight: normal;
+        }
+        a:last-child::after {
+          display: none;
+        }
+
+        .active {
+          font-weight: bold;
+        }
+      `}</style>
     </div>
   );
 };
