@@ -5,14 +5,14 @@ import '../scss/Header.scss';
 const Header = () => (
   <div className="header">
     <div className="header-content">
-      <h1>
+      <h1 className="header-content__elem">
         distance<span className="header-period">.</span>school
       </h1>
-      <p>
-        A list of remote learning resources for teachers and parents in the wake
-        of COVID-19
+      <p className="header-content__elem">
+        Remote learning resources for teachers and parents in the wake of
+        COVID-19
       </p>
-      <Nav />
+      <Nav className="header-content__elem" />
     </div>
     <hr />
   </div>

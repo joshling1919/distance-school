@@ -17,7 +17,7 @@ const NavBar = () => {
       </Link>
       <Link href="questions">
         <a className={router.pathname == '/questions' ? 'active' : ''}>
-          Ask a teacher
+          Questions
         </a>
       </Link>
     </div>
