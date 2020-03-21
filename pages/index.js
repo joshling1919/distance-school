@@ -33,9 +33,9 @@ const Index = () => (
     </p>
     <p>
       The vast amount of available resources can be both encouraging and
-      intimidating. Our goal here is to simplify things by providing an
-      opinionated set of recommendations on where you should turn to to
-      facilitate high quality distance learning.
+      intimidating. Our goal here is to simplify things by providing
+      recommendations on what we think are currently the best tools to start
+      with.
     </p>
     <style jsx>{`
       a {
