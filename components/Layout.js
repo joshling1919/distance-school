@@ -20,7 +20,7 @@ const Layout = props => (
       .layout {
         margin: 20px 40px;
       }
-      @media (${media.tablet}) {
+      @media ${media.tablet} {
         .layout {
           margin: 30px 50px;
         }
