@@ -11,10 +11,10 @@ const navItems = [
 const Header = () => (
   <div className="header">
     <div className="header-content">
-      <h1 className="header-content__elem">
+      <h1>
         distance<span className="header-period">.</span>school
       </h1>
-      <p className="header-content__elem">
+      <p>
         Remote learning resources for teachers and parents in the wake of
         COVID-19
       </p>
@@ -37,6 +37,7 @@ const Header = () => (
       h1 {
         font-size: 24px;
         font-weight: bold;
+        margin: 0;
       }
 
       p {
@@ -49,9 +50,6 @@ const Header = () => (
         justify-content: space-between;
         text-align: center;
         padding: 20px 30px;
-      }
-      .header-content__elem {
-        margin-bottom: 20px;
       }
 
       hr {

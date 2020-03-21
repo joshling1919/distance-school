@@ -2,6 +2,7 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
+import { colors } from '../../theme';
 
 const NavBar = ({ navItems }) => {
   const router = useRouter();
@@ -13,7 +14,7 @@ const NavBar = ({ navItems }) => {
           className = router.pathname === '/' ? 'active' : '';
         }
         return (
-          <Link href={href}>
+          <Link href={href} key={href}>
             <a className={className}>{text}</a>
           </Link>
         );
@@ -26,6 +27,8 @@ const NavBar = ({ navItems }) => {
         }
         a {
           display: inline-block;
+          text-decoration: none;
+          color: ${colors.onPrimary};
         }
         a::after {
           content: '|';
