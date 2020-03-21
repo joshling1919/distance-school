@@ -25,6 +25,9 @@ const Layout = props => (
           margin: 30px 50px;
         }
       }
+      .content {
+        padding: 20px;
+      }
     `}</style>
     <style jsx global>{`
       /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -168,6 +171,7 @@ const Layout = props => (
       #__next {
         height: 100%;
         width: 100%;
+        line-height: 1.5;
       }
 
       body {
@@ -181,6 +185,10 @@ const Layout = props => (
       a {
         text-decoration: none;
         color: ${colors.onPrimary};
+      }
+
+      p {
+        margin: 1em 0;
       }
     `}</style>
   </div>
