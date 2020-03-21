@@ -34,8 +34,7 @@ const Index = () => (
     <p>
       The vast amount of available resources can be both encouraging and
       intimidating. Our goal here is to simplify things by providing
-      recommendations on what we think are currently the best tools to start
-      with.
+      recommendations on what we think are the best tools to start with.
     </p>
     <style jsx>{`
       a {
