@@ -63,7 +63,7 @@ export default () => (
           </li>
         </ul>
       </Descriptions.Item>
-      <Descriptions.Item label="Supplementary Resources">
+      <Descriptions.Item label="Supplemental Resources">
         <ul>
           <li>
             <a

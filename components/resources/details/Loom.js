@@ -70,7 +70,7 @@ export default () => (
           </li>
         </ul>
       </Descriptions.Item>
-      <Descriptions.Item label="Supplementary Resources">
+      <Descriptions.Item label="Supplemental Resources">
         Once you download Loom, Loom provides a wonderfully curated tutorial
         guide explaining how to use Loom for specific fields and circumstances
         under their “How to use Loom” tab.

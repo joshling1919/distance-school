@@ -59,7 +59,7 @@ export default () => (
       <Descriptions.Item label="Capacity">
         Basic Version: Up to 250 individuals and 8 Hour duration for “Meet Now”
       </Descriptions.Item>
-      <Descriptions.Item label="Supplementary Resources">
+      <Descriptions.Item label="Supplemental Resources">
         <ul>
           <li>
             <a
