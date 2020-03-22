@@ -63,7 +63,31 @@ export default () => (
       <Descriptions.Item label="Supplementary Resources">
         <ul>
           <li>
-            <a>Tutorial and Overview</a>
+            <a
+              href="https://www.youtube.com/watch?v=bTSJ0YDoF7o"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zoom Tutorial and Overview
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=UTXUmoNsgg0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zoom to Teach an Online Lesson
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=5iap0Ffl5Lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zoom Overview for Attendees/Students
+            </a>
           </li>
         </ul>
       </Descriptions.Item>
