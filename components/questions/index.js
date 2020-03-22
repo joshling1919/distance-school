@@ -5,7 +5,7 @@ import { Collapse } from 'antd';
 const { Panel } = Collapse;
 
 export default () => (
-  <Collapse defaultActiveKey={['1']}>
+  <Collapse defaultActiveKey={[]}>
     <Panel header="How can I set my students up for remote learning?" key="1">
       <h2>Internet Essentials</h2>
       <p>
