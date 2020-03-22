@@ -4,7 +4,7 @@ import Header from './header';
 import { media } from '../theme';
 
 const Layout = props => (
-  <div className="layout">
+  <div>
     <Head>
       <title>distance.school</title>
       <link
@@ -14,8 +14,10 @@ const Layout = props => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
     </Head>
-    <Header />
-    <div className="content">{props.children}</div>
+    <div className="layout">
+      <Header />
+      <div className="content">{props.children}</div>
+    </div>
     <style jsx>{`
       .layout {
         margin: 20px 40px;
@@ -29,6 +31,12 @@ const Layout = props => (
         }
         .content {
           padding: 20px;
+        }
+      }
+      @media ${media.desktop} {
+        .layout {
+          width: 1000px;
+          margin: 0 auto;
         }
       }
     `}</style>

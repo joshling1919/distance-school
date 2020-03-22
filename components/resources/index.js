@@ -18,7 +18,7 @@ const Section = ({ title, resources }) => {
           margin-bottom: 40px;
         }
         h2 {
-          margin: 5px 0;
+          margin: 10px 0;
         }
         .resources-container {
           display: flex;
@@ -64,8 +64,9 @@ const sections = [
           'Loom is a simple and effective platform which allows users to relay a message through a shareable video. It allows users to communicate ideas quickly and effectively as if you were right next to them. Loom does this by allowing you to screen capture, record, and narrate your video simultaneously, and send it to your audience through an invite or clickable link. Additionally, with tools like pausing, trimming, highlighting, and annotating, it allows users to create a more dynamic and clean video.',
       },
       {
-        title: 'Show.me',
-        description: 'coming soon',
+        title: 'Screencastify',
+        description:
+          'Screencastify is a chrome extension that allows users to record, annotate and share lessons from their browser. Similar to Loom, it allows users to communicate ideas quickly and effectively as if you were right next to them. During recording, Screencastify positions a toolbox in the lower left-hand corner to allow users to toggle between different functions such as adding click animations, pausing, creating focus bubbles, and pulling up a stop watch. And after your recording, you have the capabilities to crop, trim or merge any parts of your recorded video. At the end, Screencastify automatically uploads your file into Google drive or Youtube account, and create a clickable link your audience can use.',
       },
     ],
   },

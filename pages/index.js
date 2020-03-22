@@ -5,8 +5,7 @@ const Index = () => (
   <div>
     <div className="intro">
       <p>
-        Over the last week, several groups have graciously compiled large banks
-        of resources that educators and parents can turn to, such as{' '}
+        Over the last week, several groups, such as{' '}
         <a
           href="https://www.techforlearners.org/"
           target="_blank"
@@ -29,8 +28,9 @@ const Index = () => (
           rel="noopener noreferrer"
         >
           Digital Promise
-        </a>
-        .
+        </a>{' '}
+        have graciously compiled large banks of resources that educators and
+        parents can turn to.
       </p>
       <p>
         The vast amount of available resources can be both encouraging and
@@ -39,12 +39,12 @@ const Index = () => (
       </p>
     </div>
     <hr />
-    <main>
-      <h1>Resources</h1>
-      <Resources />
-    </main>
+    <Resources />
     <style jsx>{`
       .intro {
+        margin-bottom: 30px;
+      }
+      hr {
         margin-bottom: 30px;
       }
     `}</style>
