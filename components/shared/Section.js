@@ -10,9 +10,9 @@ const Section = ({ title, items }) => {
             <h3>
               <Title />
             </h3>
-            <p>
+            <div>
               <Description />
-            </p>
+            </div>
           </div>
         ))}
       </div>
