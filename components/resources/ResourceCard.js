@@ -2,14 +2,14 @@ import React from 'react';
 import { Card, Avatar } from 'antd';
 import { InfoCircleOutlined } from '@ant-design/icons';
 
-export default ({ logo, title, description }) => (
+export default ({ logo, title, description, detailKey, openModal }) => (
   <Card
     style={{ margin: '0 auto' }}
     actions={[
-      <React.Fragment>
+      <div onClick={() => openModal(detailKey)}>
         <InfoCircleOutlined key="info" />
-        More Info
-      </React.Fragment>,
+        <div>More Info</div>
+      </div>,
     ]}
   >
     <Card.Meta
