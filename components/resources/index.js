@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
 import Category from './Category';
 import { Modal, Button } from 'antd';
-import { Zoom, MicrosoftTeams, Loom, Screencastify } from './details';
+import {
+  Zoom,
+  MicrosoftTeams,
+  Loom,
+  Screencastify,
+  KhanAcademy,
+  BrainPop,
+  GoogleClassroom,
+  ClassDojo,
+} from './details';
 
 const sections = [
   {
@@ -46,6 +55,48 @@ const sections = [
       },
     ],
   },
+  {
+    category: 'Full Curriculum Coverage',
+    categoryDescription:
+      'These websites cover a wide variety of content and allows educators across different grade levels and content areas to utilize the site to their benefit.',
+    items: [
+      {
+        title: 'Khan Academy',
+        detailKey: 'khan',
+        logo: 'resources/khan.jpg',
+        description:
+          'Khan Academy has a library of standards-aligned lessons covering pre-school, math, science, ELA, test prep content, and is available in 40 different languages',
+      },
+      {
+        title: 'BrainPOP',
+        detailKey: 'brainpop',
+        logo: 'resources/brainpop.png',
+        description:
+          'BrainPOP offers animated resources over a wide variety of topics that support educators and engage students. Generally, thought of as a place with fun instructional videos, BrainPOP goes beyond videos and has readings, quizzes, concept maps, and coding.',
+      },
+    ],
+  },
+  {
+    category: 'Learning Management Systems',
+    categoryDescription:
+      'An LMS is used to support learning by providing a space where materials can be stored and organized, assessments can be given, and students and teachers can interact using an internal messaging system. It streamlines the education process, by putting everything in one central location, making it easier to track activity, record data, and engage students and parents.',
+    items: [
+      {
+        title: 'Class Dojo',
+        detailKey: 'classDojo',
+        logo: 'resources/classdojo.jpeg',
+        description:
+          'ClassDojo is a school communication platform that helps educators build classroom and community culture by connecting teachers, students, and families.',
+      },
+      {
+        title: 'Google Classroom',
+        detailKey: 'googleClassroom',
+        logo: 'resources/googleclassroom.png',
+        description:
+          'Google Classroom is a learning management system that is part of the Google Apps for Education suite. Google Classroom is an online platform that allows teachers to create online classrooms, create assignments, quizzes, and monitor student progress, while keeping students accountable with due dates, grades, and feedback.',
+      },
+    ],
+  },
 ];
 
 const detailsMap = {
@@ -53,6 +104,13 @@ const detailsMap = {
   microsoft: { title: 'Microsoft Teams', component: <MicrosoftTeams /> },
   loom: { title: 'Loom', component: <Loom /> },
   screencastify: { title: 'Screencastify', component: <Screencastify /> },
+  khan: { title: 'Khan Academy', component: <KhanAcademy /> },
+  brainpop: { title: 'BrainPOP', component: <BrainPop /> },
+  googleClassroom: {
+    title: 'Google Classroom',
+    component: <GoogleClassroom />,
+  },
+  classDojo: { title: 'Class Dojo', component: <ClassDojo /> },
 };
 
 export default () => {
