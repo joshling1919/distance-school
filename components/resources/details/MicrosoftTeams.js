@@ -25,8 +25,8 @@ export default () => (
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
-      <Descriptions.Item label="System Requirements">
-        Mobile, Desktop, and Tablet collaboration. More details can be found{' '}
+      <Descriptions.Item label="Platforms supported">
+        Mobile, Desktop, and Tablet. More details can be found{' '}
         <a
           href="https://docs.microsoft.com/en-us/microsoftteams/hardware-requirements-for-the-teams-app"
           target="_blank"

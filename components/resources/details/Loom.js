@@ -4,13 +4,25 @@ import { Descriptions } from 'antd';
 
 export default () => (
   <div>
-    <p>Loom is lit</p>
+    <p>
+      <a href="https://www.loom.com/" target="_blank" rel="noopener noreferrer">
+        Loom
+      </a>{' '}
+      is a simple and effective platform which allows users to relay a message
+      through a shareable video. It allows users to communicate ideas quickly
+      and effectively as if you were right next to them. Loom does this by
+      allowing you to screen capture, record, and narrate your video
+      simultaneously, and send it to your audience through an invite or
+      clickable link. Additionally, with tools like pausing, trimming,
+      highlighting, and annotating, it allows users to create a more dynamic and
+      clean video.
+    </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
-      <Descriptions.Item label="System Requirements">
-        Mobile, Desktop, and Tablet collaboration. More details can be found{' '}
+      <Descriptions.Item label="Platforms Supported">
+        Mobile (iOS) application, Desktop application, and Chrome Extension{' '}
         <a
-          href="https://support.zoom.us/hc/en-us/articles/201362023-System-Requirements-for-PC-Mac-and-Linux"
+          href="https://www.loom.com/download"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -20,44 +32,48 @@ export default () => (
       </Descriptions.Item>
       <Descriptions.Item label="Cost">
         <p>
-          Zoom has removed its 40-minute meeting limit restriction on its free
-          basic accounts for students and teachers at K-12 schools in America.
+          Loom is removing the limit (25) on the number of videos a user can
+          access under its free plan, cutting the price of Loom Pro in half, and
+          extending its free trial period of its premium Loom Pro service from
+          14 to 30 days through July 1, 2020.{' '}
+          <strong>
+            It’s also making Loom Pro free for students and teachers at K-12
+            schools, universities and other educational institutions with no
+            time limit.
+          </strong>
         </p>
         <p>
           For more info, visit{' '}
           <a
-            href="https://zoom.us/pricing"
+            href="https://www.loom.com/pricing"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://zoom.us/pricing
+            https://www.loom.com/pricing
           </a>
         </p>
       </Descriptions.Item>
       <Descriptions.Item label="Login in Requirements">
-        Account is required to host a meeting, but not required to attend a Zoom
-        meeting.
+        Account is required.
       </Descriptions.Item>
       <Descriptions.Item label="Capacity">
         <ul>
           <li>
-            <strong>Basic Version:</strong> Up to 100 people on a call and
-            meeting duration up to 40-minutes. (Note: Zoom has removed its
-            40-minute meeting limit restriction on its free basic accounts for
-            students and teachers at K-12 schools in America.)
+            <strong>Loom Basic:</strong> 25 video storage limit (
+            <strong>
+              Note: Loom Pro is now free for students and teachers.
+            </strong>
+            )
           </li>
           <li>
-            <strong>Pro Version:</strong> Up to 1000 people on a call and
-            meeting duration up to 24 hours
+            <strong>Loom Pro:</strong> unlimited video storage
           </li>
         </ul>
       </Descriptions.Item>
       <Descriptions.Item label="Supplementary Resources">
-        <ul>
-          <li>
-            <a>Tutorial and Overview</a>
-          </li>
-        </ul>
+        Once you download Loom, Loom provides a wonderfully curated tutorial
+        guide explaining how to use Loom for specific fields and circumstances
+        under their “How to use Loom” tab.
       </Descriptions.Item>
     </Descriptions>
   </div>
