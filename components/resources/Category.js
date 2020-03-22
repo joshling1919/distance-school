@@ -16,10 +16,15 @@ export default ({ items, category, categoryDescription, openModal }) => (
     </h1>
     <Row gutter={16} justify="center">
       {items.map(resource => (
-        <Col key={resource.title} sm={24} md={12} style={{ marginBottom: 40 }}>
+        <Col key={resource.title} sm={24} md={12} style={{ marginBottom: 60 }}>
           <ResourceCard {...resource} openModal={openModal} />
         </Col>
       ))}
     </Row>
+    <style jsx>{`
+      h1 {
+        margin-bottom: 20px;
+      }
+    `}</style>
   </div>
 );
