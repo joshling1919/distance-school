@@ -6,7 +6,7 @@ export default () => (
   <div>
     <p>
       <a
-        href="https://www.screencastify.com/"
+        href="https://www.khanacademy.org/"
         target="_blank"
         rel="noopener noreferrer"
       >
