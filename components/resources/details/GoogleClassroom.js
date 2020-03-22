@@ -25,76 +25,63 @@ export default () => (
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
       <Descriptions.Item label="Supported Platforms">
-        Desktop application and Chrome Extension{' '}
-        <a
-          href="https://help.screencastify.com/article/228-is-screencastify-compatible-with-my-device"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          here
-        </a>
-        .
+        Mobile, Desktop, Tablet collaboration and universal browser
+        compatibility
       </Descriptions.Item>
-      <Descriptions.Item label="Cost">
-        <p>
-          Free for basic use.{' '}
-          <strong>Educators receive 40% off Screencastify Unlimited.</strong>
-        </p>
-        <p>
-          For more info, visit{' '}
-          <a
-            href="https://www.screencastify.com/buy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://www.screencastify.com/buy
-          </a>
-        </p>
-      </Descriptions.Item>
+      <Descriptions.Item label="Cost">Free for all users</Descriptions.Item>
       <Descriptions.Item label="Login in Requirements">
-        Account is required.
+        <ul>
+          <li>Login Required.</li>
+          <li>Students can join a classroom through a link.</li>
+          <li>
+            <strong>
+              Google Classroom can only be used with students at a school. The
+              school must sign up for a free G Suite for Education account.
+            </strong>
+          </li>
+        </ul>
       </Descriptions.Item>
-      <Descriptions.Item label="Capacity">
+      <Descriptions.Item label="Capabilities">
         <ul>
           <li>
-            <strong>Screencastify Basic:</strong> Record up to 5 minutes per
-            video
+            Well established in Google Ecosystem (GoogleDrive, Gmail, Forms,
+            Sheets, Docs, etc)
           </li>
-          <li>
-            <strong>Screencastify Unlimited:</strong> Unlimited recording time
-          </li>
+          <li>Create online classes</li> <li>Create online assignments</li>
+          <li>Track student progress and performance</li> <li>Easy Access</li>
+          <li>In house communication system</li> <li>Automatic Translation</li>
         </ul>
       </Descriptions.Item>
       <Descriptions.Item label="Supplemental Resources">
         <ul>
           <li>
             <Anchor
-              text="Learn how to navigate Screencast Basics"
-              href="https://www.screencastify.com/courses"
+              text="Google Classroom 101"
+              href="https://www.youtube.com/watch?v=DeOVe2YV2Io"
             />
           </li>
           <li>
             <Anchor
-              text="Screencastify tutorials"
-              href="https://www.youtube.com/watch?v=v7uScletiPc"
+              text="Getting Started with Google classroom"
+              href="https://www.youtube.com/watch?v=BnmIqG7oBBU"
             />
           </li>
           <li>
             <Anchor
-              text="How to make Video Tutorials for Students"
-              href="https://www.youtube.com/watch?v=lHr9r-F-k1s"
+              text="Online Course with Google Classroom"
+              href="https://www.youtube.com/watch?v=e3YhXdmSpso"
             />
           </li>
           <li>
             <Anchor
-              text="Screencastify to take videos lessons online"
-              href="https://www.youtube.com/watch?v=v3Qw5AWvM7o"
+              text="Google Classroom Tutorials for Students and Parents"
+              href="https://www.youtube.com/watch?v=xfgqtCi7hdo"
             />
           </li>
           <li>
             <Anchor
-              text="How to use video to master distance learning"
-              href="https://drive.google.com/file/d/1tdeOvAaedIOF-zObE_nEooUy6cS-uTme/view"
+              text="Google Classroom Best Practices"
+              href="https://www.youtube.com/watch?v=eU2_5qKhpFE"
             />
           </li>
         </ul>
