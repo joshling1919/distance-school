@@ -6,96 +6,78 @@ export default () => (
   <div>
     <p>
       <a
-        href="https://www.screencastify.com/"
+        href="https://www.classdojo.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         Class Dojo
       </a>{' '}
-      is an app that allows users to record, annotate and share lessons from
-      their browser. Similar to Loom, it allows users to communicate ideas
-      quickly and effectively as if you were right next to them. During
-      recording, Screencastify positions a toolbox in the lower left-hand corner
-      to allow users to toggle between different functions such as adding click
-      animations, pausing, creating focus bubbles, and pulling up a stopwatch.
-      And after your recording, you have the capabilities to crop, trim or merge
-      any parts of your recorded video. At the end, Screencastify automatically
-      uploads your file into Google drive or Youtube account, and creates a
-      clickable link your audience can use.
+      is a school communication platform that helps educators build classroom
+      and community culture by connecting teachers, students, and families. This
+      Learning Management System allows educators to share feedback on what is
+      happening in the classroom, communicate without the need to share phone
+      numbers or contact details, and assign activities to entire classrooms or
+      individual students. Additionally, Class Dojo is known for integrating
+      concepts such as Growth Mindset and Empathy to improve social-emotional
+      skills.
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
       <Descriptions.Item label="Supported Platforms">
-        Desktop application and Chrome Extension{' '}
-        <a
-          href="https://help.screencastify.com/article/228-is-screencastify-compatible-with-my-device"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          here
-        </a>
-        .
+        Mobile, Desktop, and Tablet
       </Descriptions.Item>
-      <Descriptions.Item label="Cost">
-        <p>
-          Free for basic use.{' '}
-          <strong>Educators receive 40% off Screencastify Unlimited.</strong>
-        </p>
-        <p>
-          For more info, visit{' '}
-          <a
-            href="https://www.screencastify.com/buy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://www.screencastify.com/buy
-          </a>
-        </p>
-      </Descriptions.Item>
+      <Descriptions.Item label="Cost">100% Free</Descriptions.Item>
       <Descriptions.Item label="Login in Requirements">
-        Account is required.
-      </Descriptions.Item>
-      <Descriptions.Item label="Capacity">
         <ul>
           <li>
-            <strong>Screencastify Basic:</strong> Record up to 5 minutes per
-            video
+            <strong>Student:</strong> Login Required (Scan with assigned QR
+            Code, Enter Class Code, or Sign in with Google)
           </li>
           <li>
-            <strong>Screencastify Unlimited:</strong> Unlimited recording time
+            <strong>Teacher:</strong> Login Required
           </li>
+        </ul>
+      </Descriptions.Item>
+      <Descriptions.Item label="Capabilities">
+        <ul>
+          <li>Connect with families </li>
+          <li>Create classrooms</li>
+          <li>
+            Share photos, videos, files, events with families and students
+            through Class Story and School Story
+          </li>
+          <li>Create an event</li>
+          <li>Create and assign activities through Portfolio</li>
+          <li>
+            Students can submit photos, videos, journals, voice recordings
+          </li>
+          <li>Automatic translation for 30 languages</li>
         </ul>
       </Descriptions.Item>
       <Descriptions.Item label="Supplemental Resources">
         <ul>
           <li>
             <Anchor
-              text="Learn how to navigate Screencast Basics"
-              href="https://www.screencastify.com/courses"
+              text="Remote Learning with ClassDojo Webinar"
+              href="https://www.youtube.com/watch?v=OAEkfrwtAOI"
             />
           </li>
           <li>
             <Anchor
-              text="Screencastify tutorials"
-              href="https://www.youtube.com/watch?v=v7uScletiPc"
+              text="Class Dojo Introduction"
+              href="https://www.youtube.com/watch?v=vgZOhrytzwQ"
             />
           </li>
           <li>
             <Anchor
-              text="How to make Video Tutorials for Students"
-              href="https://www.youtube.com/watch?v=lHr9r-F-k1s"
+              text="Class Dojo Setup and Tips"
+              href="https://www.youtube.com/watch?v=hb21jcADl3o"
             />
           </li>
           <li>
             <Anchor
-              text="Screencastify to take videos lessons online"
-              href="https://www.youtube.com/watch?v=v3Qw5AWvM7o"
-            />
-          </li>
-          <li>
-            <Anchor
-              text="How to use video to master distance learning"
-              href="https://drive.google.com/file/d/1tdeOvAaedIOF-zObE_nEooUy6cS-uTme/view"
+              text="Class Dojo Portfolio Walkthrough"
+              href="https://www.youtube.com/watch?v=uG7-axyuUcg"
             />
           </li>
         </ul>

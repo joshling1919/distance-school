@@ -6,22 +6,21 @@ export default () => (
   <div>
     <p>
       <a
-        href="https://www.screencastify.com/"
+        href="https://classroom.google.com"
         target="_blank"
         rel="noopener noreferrer"
       >
         Google Classroom
       </a>{' '}
-      is an app that allows users to record, annotate and share lessons from
-      their browser. Similar to Loom, it allows users to communicate ideas
-      quickly and effectively as if you were right next to them. During
-      recording, Screencastify positions a toolbox in the lower left-hand corner
-      to allow users to toggle between different functions such as adding click
-      animations, pausing, creating focus bubbles, and pulling up a stopwatch.
-      And after your recording, you have the capabilities to crop, trim or merge
-      any parts of your recorded video. At the end, Screencastify automatically
-      uploads your file into Google drive or Youtube account, and creates a
-      clickable link your audience can use.
+      is a learning management system that is part of the Google Apps for
+      Education suite. Google Classroom is an online platform that allows
+      teachers to create online classrooms, create assignments, quizzes, and
+      monitor student progress, while keeping students accountable with due
+      dates, grades, and feedback. Through the Google Classroom built in
+      communication system, learners, parents and teachers can also connect over
+      assignments and student performance. Additionally, teachers can utilize
+      different features in conjunction with the classroom such as the Forms and
+      Gmail tool to make the class more dynamic.
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
