@@ -22,21 +22,15 @@ const Layout = props => (
       .layout {
         margin: 20px 40px;
       }
-      .content {
-        padding: 5px;
-      }
+
       @media ${media.tablet} {
         .layout {
           margin: 30px 50px;
         }
-        .content {
-          padding: 20px;
-        }
       }
       @media ${media.desktop} {
         .layout {
-          width: 1000px;
-          margin: 0 auto;
+          margin: 30px 160px;
         }
       }
     `}</style>

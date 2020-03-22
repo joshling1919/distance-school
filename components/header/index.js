@@ -4,7 +4,6 @@ import { colors } from '../../theme';
 
 const navItems = [
   { text: 'Resources', href: '/' },
-  { text: 'Guides', href: '/guides' },
   { text: 'Questions', href: '/questions' },
 ];
 
