@@ -14,7 +14,7 @@ export default ({ items, category, categoryDescription, openModal }) => (
         />
       </Tooltip>
     </h1>
-    <Row gutter={16} justify="center">
+    <Row gutter={32} justify="center">
       {items.map(resource => (
         <Col key={resource.title} sm={24} md={12} style={{ marginBottom: 60 }}>
           <ResourceCard {...resource} openModal={openModal} />
