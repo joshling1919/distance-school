@@ -68,6 +68,7 @@ export default () => {
         </section>
       ))}
       <Modal
+        centered={true}
         width="90%"
         visible={visible}
         title={detailsMap[detailKey].title}
