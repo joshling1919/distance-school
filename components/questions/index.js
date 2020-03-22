@@ -11,7 +11,7 @@ const sections = [
           'Xfinity is offering 60 days of free Internet Essentials service and will be increasing speeds for existing customers. The process is quick. If you need to talk to someone in Spanish, call 1-855-765-6995. For English, call 1-855-846-8376.',
       },
       {
-        Title: () => 'Microsoft Teams',
+        Title: () => 'If Xfinity Comcast is not offered in your area…',
         Description: () => (
           <span>
             Check out{' '}
