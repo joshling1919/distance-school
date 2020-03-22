@@ -6,96 +6,97 @@ export default () => (
   <div>
     <p>
       <a
-        href="https://www.screencastify.com/"
+        href="https://www.brainpop.com/"
         target="_blank"
         rel="noopener noreferrer"
       >
         BrainPOP
       </a>{' '}
-      is an app that allows users to record, annotate and share lessons from
-      their browser. Similar to Loom, it allows users to communicate ideas
-      quickly and effectively as if you were right next to them. During
-      recording, Screencastify positions a toolbox in the lower left-hand corner
-      to allow users to toggle between different functions such as adding click
-      animations, pausing, creating focus bubbles, and pulling up a stopwatch.
-      And after your recording, you have the capabilities to crop, trim or merge
-      any parts of your recorded video. At the end, Screencastify automatically
-      uploads your file into Google drive or Youtube account, and creates a
-      clickable link your audience can use.
+      offers animated resources over a wide variety of topics that support
+      educators and engage students. Generally, thought of as a place with fun
+      instructional videos, BrainPOP goes beyond videos and has readings,
+      quizzes, concept maps, and coding. Additionally, all content is aligned to
+      and searchable by state standards including CCSS, NGSS and U.S. state
+      standards. The basic setup for a teacher- student interaction would first
+      start with the educator searching for a specific subject matter/content,
+      followed by assigning an instructional video with follow up activities.
+      These follow up activities have built in functionality that allow students
+      to submit responses to their teacher and in turn allows the educator to
+      track their submissions and provide necessary feedback. Educators can also
+      assign summative assessments through BrainPOP’s quizzes in the form
+      multiple choice or open-ended questions from BrainPOPS large library of
+      questions or create their own.
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
       <Descriptions.Item label="Supported Platforms">
-        Desktop application and Chrome Extension{' '}
-        <a
-          href="https://help.screencastify.com/article/228-is-screencastify-compatible-with-my-device"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          here
-        </a>
-        .
+        Mobile, Desktop, and Tablet
       </Descriptions.Item>
       <Descriptions.Item label="Cost">
-        <p>
-          Free for basic use.{' '}
-          <strong>Educators receive 40% off Screencastify Unlimited.</strong>
-        </p>
-        <p>
-          For more info, visit{' '}
-          <a
-            href="https://www.screencastify.com/buy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://www.screencastify.com/buy
-          </a>
-        </p>
+        BrainPOP is providing{' '}
+        <Anchor text="free access" href="https://go.brainpop.com/COVID19" /> too
+        all families and schools during this time.
       </Descriptions.Item>
       <Descriptions.Item label="Login in Requirements">
-        Account is required.
+        Login required to access
       </Descriptions.Item>
-      <Descriptions.Item label="Capacity">
+      <Descriptions.Item label="Classroom Capabilities">
         <ul>
+          <li>Instructional videos</li>
           <li>
-            <strong>Screencastify Basic:</strong> Record up to 5 minutes per
-            video
+            Mimic Blooms Taxonomy by explaining information through discover,
+            applying knowledge through play, and showing what you’ve learned
+            through create features.
           </li>
+          <li>Differentiation</li>
+          <li>Create whole class or individual assignments </li>
+          <li>Track student progress</li>
+          <li>Distance learning lesson plans</li>
           <li>
-            <strong>Screencastify Unlimited:</strong> Unlimited recording time
+            LMS integration to G Suite, Google Classroom, Clever, Canvas,
+            Moodle, Schoology, ClassLink, ONEROSTER, CSV, and etc
           </li>
         </ul>
+      </Descriptions.Item>
+      <Descriptions.Item label="Subjects Covered">
+        STEM • Social Studies • English • Health • Arts & Music
       </Descriptions.Item>
       <Descriptions.Item label="Supplemental Resources">
         <ul>
           <li>
             <Anchor
-              text="Learn how to navigate Screencast Basics"
-              href="https://www.screencastify.com/courses"
+              text="BrainPOP Overview"
+              href="https://www.youtube.com/watch?v=ggGJUhogoTg"
             />
           </li>
           <li>
             <Anchor
-              text="Screencastify tutorials"
-              href="https://www.youtube.com/watch?v=v7uScletiPc"
+              text="BrainPOP- Setting Up classes"
+              href="https://www.youtube.com/watch?v=5zTKvpweibs"
             />
           </li>
           <li>
             <Anchor
-              text="How to make Video Tutorials for Students"
-              href="https://www.youtube.com/watch?v=lHr9r-F-k1s"
+              text="Distance Learning with BrainPOP"
+              href="https://www.youtube.com/watch?v=mZNNwo0jhEQ"
             />
           </li>
           <li>
             <Anchor
-              text="Screencastify to take videos lessons online"
-              href="https://www.youtube.com/watch?v=v3Qw5AWvM7o"
+              text="BrainPOP Distance Learning Lesson Resources"
+              href="https://educators.brainpop.com/school-home-connection-resources/"
             />
           </li>
           <li>
             <Anchor
-              text="How to use video to master distance learning"
-              href="https://drive.google.com/file/d/1tdeOvAaedIOF-zObE_nEooUy6cS-uTme/view"
+              text="BrainPOP Tools for Teachers"
+              href="https://www.youtube.com/watch?v=KEfHL4Xhv8M"
+            />
+          </li>
+          <li>
+            <Anchor
+              text="Learn more about Create, Play, and Discover"
+              href="https://www.youtube.com/watch?v=W8ed5yjO5f0"
             />
           </li>
         </ul>
