@@ -27,6 +27,9 @@ const Section = ({ title, items }) => {
           display: flex;
           flex-direction: column;
         }
+        .resources {
+          margin-bottom: 20px;
+        }
       `}</style>
     </section>
   );

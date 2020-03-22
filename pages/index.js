@@ -40,12 +40,21 @@ const Index = () => (
     </div>
     <hr />
     <Resources />
+
     <style jsx>{`
       .intro {
         margin-bottom: 30px;
       }
       hr {
         margin-bottom: 30px;
+      }
+
+      h1 {
+        margin: 20px 0;
+      }
+
+      section {
+        margin-bottom: 40px;
       }
     `}</style>
   </div>
