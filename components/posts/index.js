@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 function Image(props) {
   let src = props.src;
   if (src.startsWith('/')) {
-    src = `${process.env.STRAPI_ENDPOINT}${src}`;
+    src = `https://distance-school-server.herokuapp.com${src}`;
   }
   return (
     <img
