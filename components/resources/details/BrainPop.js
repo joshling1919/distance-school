@@ -25,7 +25,7 @@ export default () => (
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
-      <Descriptions.Item label="Platforms Supported">
+      <Descriptions.Item label="Supported Platforms">
         Desktop application and Chrome Extension{' '}
         <a
           href="https://help.screencastify.com/article/228-is-screencastify-compatible-with-my-device"

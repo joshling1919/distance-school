@@ -18,7 +18,7 @@ export default () => (
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
-      <Descriptions.Item label="Platforms supported">
+      <Descriptions.Item label="Supported Platforms">
         Mobile, Desktop, and Tablet. More details can be found{' '}
         <a
           href="https://support.zoom.us/hc/en-us/articles/201362023-System-Requirements-for-PC-Mac-and-Linux"

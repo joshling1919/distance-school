@@ -19,7 +19,7 @@ export default () => (
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
-      <Descriptions.Item label="Platforms Supported">
+      <Descriptions.Item label="Supported Platforms">
         Mobile (iOS) application, Desktop application, and Chrome Extension{' '}
         <a
           href="https://www.loom.com/download"
