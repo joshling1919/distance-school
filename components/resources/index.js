@@ -6,6 +6,8 @@ import { Zoom, MicrosoftTeams, Loom, Screencastify } from './details';
 const sections = [
   {
     category: 'Video Conferencing Tools',
+    categoryDescription:
+      'Video conferencing tools allow two or more parties to communicate remotely via audio, video, and/or text. This allows for parties to stay connected and up to date when meeting in-person is not possible.',
     items: [
       {
         title: 'Zoom',
@@ -25,6 +27,8 @@ const sections = [
   },
   {
     category: 'Screen Capture Resources',
+    categoryDescription:
+      'Screen Capture Videos are recordings of an individual’s computer screen for a set duration. This allows the individual to create detailed demonstrations and explanations through a step by step video. Using screen capture videos are a more effective tool for learners who are trying to navigate, or understand a foreign concept compared to static screenshots with explanatory text.',
     items: [
       {
         title: 'Loom',

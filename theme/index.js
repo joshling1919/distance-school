@@ -3,6 +3,7 @@ export const colors = {
   onPrimary: '#000',
   linkBlue: '#0000EE',
   highlight: '#85e87c',
+  infoBlue: '#08c',
 };
 
 const tabletWidth = 768;

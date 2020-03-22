@@ -5,7 +5,10 @@ import { Descriptions } from 'antd';
 export default () => (
   <div>
     <p>
-      Zoom is an all in-one video conferencing platform that can be used for
+      <a href="https://zoom.us/" target="_blank" rel="noopener noreferrer">
+        Zoom
+      </a>{' '}
+      is an all in-one video conferencing platform that can be used for
       video/audio conferencing, screen sharing, collaboration, scheduling, and
       live chat. Zoom does not require individuals to have a Zoom account to
       attend meetings, and individuals can easily join meetings through an
