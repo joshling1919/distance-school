@@ -1,35 +1,39 @@
-import React from 'react';
-import { Typography, Divider } from 'antd';
-import ReactMarkdown from 'react-markdown';
-
-function Image(props) {
-  let src = props.src;
-  if (src.startsWith('/')) {
-    src = `https://distance-school-server.herokuapp.com${src}`;
-  }
-  return (
-    <img
-      {...props}
-      src={src}
-      style={{ maxWidth: '100%', border: '1px solid gray' }}
-    />
-  );
-}
-
-const Post = ({ article }) => (
-  <div>
-    <h2>{article.title}</h2>
-    <div className="uk-container uk-container-small">
-      <ReactMarkdown source={article.content} renderers={{ image: Image }} />
-    </div>
-  </div>
-);
+import { Row, Col, Card, Avatar } from 'antd';
+import { EllipsisOutlined } from '@ant-design/icons';
+import Router from 'next/router';
 
 export default ({ posts }) => (
-  <Typography>
-    {posts.map(article => (
-      <Post article={article} />
+  <Row gutter={32} justify="center">
+    {posts.map(post => (
+      <Col key={post.title} span={24} style={{ marginBottom: 60 }}>
+        <Card
+          style={{ margin: '0 auto' }}
+          actions={[
+            <div onClick={() => Router.push(`/posts/${post.id}`)}>
+              <div>Read</div>
+              <EllipsisOutlined key="read-more" />
+            </div>,
+          ]}
+        >
+          <Card.Meta
+            style={{
+              marginBottom: 20,
+              textOverflow: 'ellipsis',
+              overflow: 'hidden',
+            }}
+            avatar={
+              <Avatar
+                src={`https://distance-school-server.herokuapp.com${post.user.avatar[0].url}`}
+              />
+            }
+            title={post.title}
+            description={`by ${post.user.fullname}`}
+          ></Card.Meta>
+          <p>
+            <i>{post.blurb}</i>
+          </p>
+        </Card>
+      </Col>
     ))}
-    <Divider />
-  </Typography>
+  </Row>
 );
