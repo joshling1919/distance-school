@@ -5,79 +5,92 @@ import Anchor from '../../shared/Anchor';
 export default () => (
   <div>
     <p>
-      <a
-        href="https://www.classdojo.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Class Dojo
-      </a>{' '}
-      is a school communication platform that helps educators build classroom
-      and community culture by connecting teachers, students, and families. This
-      Learning Management System allows educators to share feedback on what is
-      happening in the classroom, communicate without the need to share phone
-      numbers or contact details, and assign activities to entire classrooms or
-      individual students. Additionally, Class Dojo is known for integrating
-      concepts such as Growth Mindset and Empathy to improve social-emotional
-      skills.
+      <Anchor text="Quizlet" href="https://quizlet.com/" /> allows students and
+      educators to create, study, and engage in any material they are trying to
+      master through the creation of online flash cards. Through machine
+      learning and spaced repetition, it is an ideal way for students to quickly
+      learn and review material.
+    </p>
+    <p>
+      Teachers can create a study set divided by terms and definition and
+      afterwards share it through social media or add it to a class or a link to
+      the set. But don't reinvent the wheel! You are meant to share and use the
+      material already previously created! There are over 300 million study sets
+      of different content you can search and add to your own classroom.
+      Following the creation of your flashcards there are 5 study mode options
+      and 2 play mode options students can choose from.
+    </p>
+    <p>
+      As an educator, you have an additional play mode known as “Quizlet Live.”
+      This is an in-class game that divides four or more students into teams.
+      Students will see the same question prompt on their own device, but will
+      each have different answer options on their device. This requires students
+      to work together to get the correct answer. Additionally, Quizlet Teacher
+      allows for teachers to engage students in formative assessments through a
+      tool known as “Class Progress,” a tool used to track student’s progress
+      and give insight into areas of strength and weakness.
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
       <Descriptions.Item label="Supported Platforms">
         Mobile, Desktop, and Tablet
       </Descriptions.Item>
-      <Descriptions.Item label="Cost">100% Free</Descriptions.Item>
-      <Descriptions.Item label="Login in Requirements">
+      <Descriptions.Item label="Cost">
         <ul>
           <li>
-            <strong>Student:</strong> Login Required (Scan with assigned QR
-            Code, Enter Class Code, or Sign in with Google)
+            <strong>Basic:</strong> Free
           </li>
           <li>
-            <strong>Teacher:</strong> Login Required
+            <strong>Plus:</strong> $1.99 per month
+          </li>
+          <li>
+            <strong>Go:</strong> $1.00 per month
           </li>
         </ul>
+        <strong>
+          Teachers will be getting free access to Quizlet Teacher until June 30,
+          2020.
+        </strong>
+      </Descriptions.Item>
+      <Descriptions.Item label="Login in Requirements">
+        Accounts are required for teachers and students. Students Over 13 can
+        sign up with Google or Facebook account. Students under 13 can sign up
+        with parent’s email or with school issued Google account.
       </Descriptions.Item>
       <Descriptions.Item label="Capabilities">
         <ul>
-          <li>Connect with families </li>
-          <li>Create classrooms</li>
+          <li>Access to Question Bank</li>
+          <li>Machine based learning + Space Repetition</li>
           <li>
-            Share photos, videos, files, events with families and students
-            through Class Story and School Story
+            5 different studying modes: Learn, Flashcard, Write, Spell, Test
           </li>
-          <li>Create an event</li>
-          <li>Create and assign activities through Portfolio</li>
-          <li>
-            Students can submit photos, videos, journals, voice recordings
-          </li>
-          <li>Automatic translation for 30 languages</li>
+          <li>Create Audio Recordings</li>
+          <li>Translation Tool</li>
+          <li>Progress check points</li>
+          <li>Create Focus Cards</li>
+          <li>Study reminders</li>
+          <li>3 different game modes: Match, Gravity, Live</li>
+          <li>Track Classroom Progress</li>
         </ul>
       </Descriptions.Item>
       <Descriptions.Item label="Supplemental Resources">
         <ul>
           <li>
             <Anchor
-              text="Remote Learning with ClassDojo Webinar"
-              href="https://www.youtube.com/watch?v=OAEkfrwtAOI"
+              text="Quizlet Teacher Guide Playlist"
+              href="https://www.youtube.com/watch?v=d-ENHNcuKgw&list=PLjvTuBcskqZFPdwJi9Tj_h7ZPdMuAUTaJ"
             />
           </li>
           <li>
             <Anchor
-              text="Class Dojo Introduction"
-              href="https://www.youtube.com/watch?v=vgZOhrytzwQ"
+              text="Quizlet Overview for Teachers Webinar"
+              href="https://www.youtube.com/watch?v=hDkUcABKF_g"
             />
           </li>
           <li>
             <Anchor
-              text="Class Dojo Setup and Tips"
-              href="https://www.youtube.com/watch?v=hb21jcADl3o"
-            />
-          </li>
-          <li>
-            <Anchor
-              text="Class Dojo Portfolio Walkthrough"
-              href="https://www.youtube.com/watch?v=uG7-axyuUcg"
+              text="Creative ways to use Quizlet in classroom"
+              href="https://www.youtube.com/watch?v=dVy5HX9kmSw"
             />
           </li>
         </ul>
