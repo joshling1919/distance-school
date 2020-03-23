@@ -150,7 +150,7 @@ export default () => {
   return (
     <main>
       {sections.map(section => (
-        <section>
+        <section key={section.category}>
           <Category key={section.category} {...section} openModal={openModal} />
         </section>
       ))}

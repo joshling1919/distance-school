@@ -1,23 +1,21 @@
 import React from 'react';
-import Head from 'next/head';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 import Layout from '../components/Layout';
+import * as gtag from '../lib/gtag';
 
 Router.events.on('routeChangeStart', url => {
   NProgress.start();
 });
-Router.events.on('routeChangeComplete', () => NProgress.done());
+Router.events.on('routeChangeComplete', url => {
+  NProgress.done();
+  gtag.pageview(url);
+});
 Router.events.on('routeChangeError', () => NProgress.done());
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <title>distance.school</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
-      </Head>
       <Layout>
         <Component {...pageProps} />
       </Layout>
