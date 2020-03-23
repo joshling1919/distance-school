@@ -12,9 +12,13 @@ const Posts = ({ posts }) => {
         <p>This page features thoughts and ideas from educators.</p>
         <p>
           We'd love to collaborate with you. If you'd like to share what you've
-          been doing or share any thoughts you have, please{' '}
-          <a onClick={() => setVisible(true)}>reach out</a>!
+          been doing or share any thoughts you have, please reach out:
         </p>
+        <div className="ask-button-container">
+          <Button size="large" type="primary" onClick={() => setVisible(true)}>
+            Share your thoughts
+          </Button>
+        </div>
       </div>
       <hr />
       <PostsComponent posts={posts} />
@@ -42,6 +46,12 @@ const Posts = ({ posts }) => {
         </iframe>
       </Modal>
       <style jsx>{`
+        .ask-button-container {
+          margin-top: 20px;
+          margin-bottom: 50px;
+          display: flex;
+          justify-content: center;
+        }
         .intro {
           margin-bottom: 30px;
         }

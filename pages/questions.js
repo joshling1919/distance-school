@@ -11,8 +11,13 @@ const Questions = () => {
         <p>
           <strong>Have a question on what to do for your students?</strong>{' '}
           We're a group of teachers who would love to help, so please feel free
-          to <a onClick={() => setVisible(true)}>reach out</a>!
+          to reach out:
         </p>
+        <div className="ask-button-container">
+          <Button size="large" type="primary" onClick={() => setVisible(true)}>
+            Ask a question
+          </Button>
+        </div>
         <p>Below is a list of questions we've answered so far.</p>
       </div>
       <hr />
@@ -41,6 +46,12 @@ const Questions = () => {
         </iframe>
       </Modal>
       <style jsx>{`
+        .ask-button-container {
+          margin-top: 20px;
+          margin-bottom: 50px;
+          display: flex;
+          justify-content: center;
+        }
         .intro {
           margin-bottom: 30px;
         }
