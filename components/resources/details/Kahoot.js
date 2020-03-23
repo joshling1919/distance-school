@@ -5,79 +5,91 @@ import Anchor from '../../shared/Anchor';
 export default () => (
   <div>
     <p>
-      <a
-        href="https://www.classdojo.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Class Dojo
-      </a>{' '}
-      is a school communication platform that helps educators build classroom
-      and community culture by connecting teachers, students, and families. This
-      Learning Management System allows educators to share feedback on what is
-      happening in the classroom, communicate without the need to share phone
-      numbers or contact details, and assign activities to entire classrooms or
-      individual students. Additionally, Class Dojo is known for integrating
-      concepts such as Growth Mindset and Empathy to improve social-emotional
-      skills.
+      <Anchor text="Kahoot" href="https://kahoot.com" /> is an in-game learning
+      platform designed for social learning. Creators can generate
+      multiple-choice quizzes, which then can be accessed by the user via a web
+      browser or the Kahoot app. There are currently two versions of Kahoots- a
+      live version where learners gather around a common screen and a challenge
+      version which is a self-paced kahoots that students can play on their own
+      devices. All players will connect using a generated game PIN shown on the
+      common screen, and use a device to answer questions created by the
+      creator. Kahoot is an ideal way to assess student mastery in a game
+      environment and o takes away the monotony of a traditional formative
+      assessment.
     </p>
 
     <Descriptions bordered layout="vertical" size="middle" column={1}>
       <Descriptions.Item label="Supported Platforms">
         Mobile, Desktop, and Tablet
       </Descriptions.Item>
-      <Descriptions.Item label="Cost">100% Free</Descriptions.Item>
+      <Descriptions.Item label="Cost">
+        <Anchor
+          text="https://kahoot.com/schools/plans/"
+          href="https://kahoot.com/schools/plans/"
+        />
+        <p>Basic plan is free, and premium plan is $6 per month.</p>
+        <p>
+          <strong>
+            Eligible schools and higher education institutions will be able to
+            use Kahoot! Premium at no cost starting March 1 for the remaining
+            months of the academic year.
+          </strong>
+        </p>
+      </Descriptions.Item>
       <Descriptions.Item label="Login in Requirements">
-        <ul>
-          <li>
-            <strong>Student:</strong> Login Required (Scan with assigned QR
-            Code, Enter Class Code, or Sign in with Google)
-          </li>
-          <li>
-            <strong>Teacher:</strong> Login Required
-          </li>
-        </ul>
+        Login required for teachers. For students, accounts are not required.
       </Descriptions.Item>
       <Descriptions.Item label="Capabilities">
         <ul>
-          <li>Connect with families </li>
-          <li>Create classrooms</li>
+          <li>Create Traditional Live Game</li>
+          <li>Create Kahoot Challenges</li>
+          <li>Set Due Dates</li>
           <li>
-            Share photos, videos, files, events with families and students
-            through Class Story and School Story
+            Differentiation via personalized learning (only on mobile app)
           </li>
-          <li>Create an event</li>
-          <li>Create and assign activities through Portfolio</li>
+          <li>Create Team Spaces with Coworkers</li>
+          <li>Access to Question Bank</li>
           <li>
-            Students can submit photos, videos, journals, voice recordings
+            Assess via multiple choice, true or false, open-ended, and puzzle
           </li>
-          <li>Automatic translation for 30 languages</li>
+          <li>Gather information via polls</li>
+          <li>Create Content Slides</li>
+          <li>
+            View data, see feedback and player progress through advanced
+            reporting
+          </li>
         </ul>
       </Descriptions.Item>
       <Descriptions.Item label="Supplemental Resources">
         <ul>
           <li>
             <Anchor
-              text="Remote Learning with ClassDojo Webinar"
-              href="https://www.youtube.com/watch?v=OAEkfrwtAOI"
+              text="Kahoot for distance learning Webinar"
+              href="https://www.youtube.com/watch?v=uYuGwp_wBDo"
             />
           </li>
           <li>
             <Anchor
-              text="Class Dojo Introduction"
-              href="https://www.youtube.com/watch?v=vgZOhrytzwQ"
+              text="Kahoot Distance Learning Guides"
+              href="https://kahoot.com/schools/distance-learning/"
             />
           </li>
           <li>
             <Anchor
-              text="Class Dojo Setup and Tips"
-              href="https://www.youtube.com/watch?v=hb21jcADl3o"
+              text="How to use kahoot question bank"
+              href="https://www.youtube.com/watch?v=kRsu7fcdDOU"
             />
           </li>
           <li>
             <Anchor
-              text="Class Dojo Portfolio Walkthrough"
-              href="https://www.youtube.com/watch?v=uG7-axyuUcg"
+              text="How to create a kahoot"
+              href="https://www.youtube.com/watch?v=KJgZZQcsSPk"
+            />
+          </li>
+          <li>
+            <Anchor
+              text="Kahoot for formative assessment"
+              href="https://www.youtube.com/watch?v=CLS5H41uf1Q"
             />
           </li>
         </ul>
