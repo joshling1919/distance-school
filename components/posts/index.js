@@ -23,6 +23,7 @@ export default ({ posts }) => (
             }}
             avatar={
               <Avatar
+                size="large"
                 src={`https://distance-school-server.herokuapp.com${post.user.avatar[0].url}`}
               />
             }

@@ -24,6 +24,7 @@ export default ({ article }) => (
     <h2>{article.title}</h2>
     <div className="author-container">
       <Avatar
+        size="large"
         src={`https://distance-school-server.herokuapp.com${article.user.avatar[0].url}`}
       />{' '}
       <span>{article.user.fullname}</span>
@@ -32,6 +33,7 @@ export default ({ article }) => (
     <div>
       <ReactMarkdown source={article.content} renderers={{ image: Image }} />
     </div>
+    <Divider />
     <style jsx>{`
       span {
         margin-left: 10px;
