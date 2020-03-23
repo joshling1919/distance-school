@@ -4,6 +4,7 @@ import { colors } from '../../theme';
 
 const navItems = [
   { text: 'Resources', href: '/' },
+  { text: 'Posts', href: '/posts' },
   { text: 'Questions', href: '/questions' },
 ];
 
@@ -37,10 +38,6 @@ const Header = () => (
         font-size: 24px;
         font-weight: bold;
         margin: 0;
-      }
-
-      p {
-        font-size: 12px;
       }
 
       .header-content {
