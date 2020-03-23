@@ -4,7 +4,9 @@ const withLess = require('@zeit/next-less');
 module.exports = withLess({
   lessLoaderOptions: {
     javascriptEnabled: true,
-    modifyVars: {}, // make your antd custom effective
+    modifyVars: {
+      '@font-size-base': '16px',
+    }, // make your antd custom effective
   },
   env: {
     STRAPI_ENDPOINT: process.env.STRAPI_ENDPOINT,
