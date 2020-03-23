@@ -23,10 +23,7 @@ export default ({ article }) => (
     </div>
     <h2>{article.title}</h2>
     <div className="author-container">
-      <Avatar
-        size="large"
-        src={article.user.avatar[0].url}}
-      />{' '}
+      <Avatar size="large" src={article.user.avatar[0].url} />{' '}
       <span>{article.user.fullname}</span>
     </div>
     <Divider />

@@ -21,12 +21,7 @@ export default ({ posts }) => (
               textOverflow: 'ellipsis',
               overflow: 'hidden',
             }}
-            avatar={
-              <Avatar
-                size={60}
-                src={post.user.avatar[0].url}}
-              />
-            }
+            avatar={<Avatar size={60} src={post.user.avatar[0].url} />}
             title={post.title}
             description={`by ${post.user.fullname}`}
           ></Card.Meta>
