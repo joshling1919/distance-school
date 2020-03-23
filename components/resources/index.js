@@ -2,14 +2,16 @@ import React, { useState } from 'react';
 import Category from './Category';
 import { Modal, Button } from 'antd';
 import {
-  Zoom,
-  MicrosoftTeams,
-  Loom,
-  Screencastify,
-  KhanAcademy,
   BrainPop,
-  GoogleClassroom,
   ClassDojo,
+  GoogleClassroom,
+  Kahoot,
+  KhanAcademy,
+  Loom,
+  MicrosoftTeams,
+  Quizlet,
+  Screencastify,
+  Zoom,
 } from './details';
 
 const sections = [
@@ -23,14 +25,14 @@ const sections = [
         detailKey: 'khan',
         logo: 'resources/khan.jpg',
         description:
-          'Khan Academy is a completely free, "one-stop shop" that allows educators to accomplish everything they would normally do in a traditional classroom at home. Khan Academy has a library of standards-aligned lessons covering pre-school, math, science, ELA, test prep content, and is available in 40 different languages.',
+          'Khan Academy is a completely free, "one-stop shop" that allows educators to accomplish everything they would normally do in a traditional classroom at home.',
       },
       {
         title: 'BrainPOP',
         detailKey: 'brainpop',
         logo: 'resources/brainpop.png',
         description:
-          'BrainPOP offers animated resources over a wide variety of topics that support educators and engage students. Generally, thought of as a place with fun instructional videos, BrainPOP goes beyond videos and has readings, quizzes, concept maps, and coding.',
+          'BrainPOP offers animated resources over a wide variety of topics that support educators and engage students.',
       },
     ],
   },
@@ -51,7 +53,7 @@ const sections = [
         detailKey: 'googleClassroom',
         logo: 'resources/googleclassroom.png',
         description:
-          'Google Classroom is a learning management system that is part of the Google Apps for Education suite. Google Classroom is an online platform that allows teachers to create online classrooms, create assignments, quizzes, and monitor student progress, while keeping students accountable with due dates, grades, and feedback.',
+          'Google Classroom is an online platform that allows teachers to create online classrooms, create assignments, quizzes, and monitor student progress, while keeping students accountable with due dates, grades, and feedback.',
       },
     ],
   },
@@ -97,6 +99,27 @@ const sections = [
       },
     ],
   },
+  {
+    category: 'Formative Assessments',
+    categoryDescription:
+      'Formative assessments are a form of assessment used to check for student progress during and throughout the course of a lesson and unit. These assessments can be used in a multitude of ways to gather pertinent information. Although, there are many ways to assess students formatively it is only effective when teachers intentionally act on the data that they gather from students in order to improve instruction. When formative assessments encompass both the data collected and your interpretation of these data, it allows educators to give students ongoing feedback as students develop mastery of the content and material.',
+    items: [
+      {
+        title: 'Kahoot',
+        detailKey: 'kahoot',
+        logo: 'resources/kahoot.png',
+        description:
+          'Kahoot is an in-game learning platform designed for social learning. Creators can generate multiple-choice quizzes, which then can be accessed by the user via a web browser or the Kahoot app.',
+      },
+      {
+        title: 'Quizlet',
+        detailKey: 'quizlet',
+        logo: 'resources/quizlet.png',
+        description:
+          'Quizlet allows students and educators to create, study, and engage in any material they are trying to master through the creation of online flash cards.',
+      },
+    ],
+  },
 ];
 
 const detailsMap = {
@@ -111,6 +134,8 @@ const detailsMap = {
     component: <GoogleClassroom />,
   },
   classDojo: { title: 'Class Dojo', component: <ClassDojo /> },
+  quizlet: { title: 'Quizlet', component: <Quizlet /> },
+  kahoot: { title: 'Kahoot', component: <Kahoot /> },
 };
 
 export default () => {
