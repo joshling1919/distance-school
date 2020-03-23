@@ -25,7 +25,7 @@ export default ({ article }) => (
     <div className="author-container">
       <Avatar
         size="large"
-        src={`https://distance-school-server.herokuapp.com${article.user.avatar[0].url}`}
+        src={article.user.avatar[0].url}}
       />{' '}
       <span>{article.user.fullname}</span>
     </div>
