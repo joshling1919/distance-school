@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Collapse } from 'antd';
+import Anchor from '../shared/Anchor';
 
 const { Panel } = Collapse;
 
@@ -59,6 +60,7 @@ export default () => (
       header="Where can I find complete lesson plans to teach my students?"
       key="3"
     >
+      <h2>Khan Academy</h2>
       <p>
         Khan Academy has created lesson plans and schedule templates
         specifically for teachers and parents who are looking for immediate
@@ -97,6 +99,21 @@ export default () => (
           </a>
         </li>
       </ul>
+      <br />
+      <h2>
+        <Anchor
+          text="Great Minds: Knowledge on the Go"
+          href="https://gm.greatminds.org/en-us/knowledgeonthego"
+        ></Anchor>
+      </h2>
+      <p>
+        Great Minds is uploading <strong>daily lesson videos</strong> and
+        shareable instructional content (in the form of worksheet PDFs) for
+        free, utilizing the Eureka Math curriculum for math content (grades
+        K-12), the Wit & Wisdom Curriculum for ELA (grades K-8), and PHD Science
+        for grades 3-5. Utilizing their modules and downloadable student content
+        will get you through a lesson from start to finish.
+      </p>
     </Panel>
     <Panel
       header="What are some supplemental resources I can start using with my students?"
@@ -164,6 +181,11 @@ export default () => (
         content of news articles to the lexile scores of their students. Simply
         share a link to your Google Classroom (see below) to get students
         reading.
+      </p>
+
+      <p>
+        <strong>This is just a start.</strong> There are a lot more awesome,
+        educator-curated resources on the <a href="/">Resources</a> page!
       </p>
     </Panel>
     <Panel header="What does the virtual classroom lesson look like?" key="5">
