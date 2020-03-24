@@ -26,7 +26,7 @@ const Layout = props => (
       @media ${media.desktop} {
         .layout {
           margin: 30px auto;
-          max-width: 68%;
+          max-width: 960px;
         }
       }
     `}</style>
