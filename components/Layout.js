@@ -9,7 +9,8 @@ const Layout = props => (
     </div>
     <style jsx>{`
       .layout {
-        margin: 20px 40px;
+        margin: 20px auto;
+        max-width: 90%;
       }
 
       .content {
@@ -18,12 +19,14 @@ const Layout = props => (
 
       @media ${media.tablet} {
         .layout {
-          margin: 30px 50px;
+          margin: 30px auto;
+          max-width: 80%;
         }
       }
       @media ${media.desktop} {
         .layout {
-          margin: 30px 160px;
+          margin: 30px auto;
+          max-width: 68%;
         }
       }
     `}</style>
