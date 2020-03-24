@@ -16,7 +16,7 @@ export default ({ items, category, categoryDescription, openModal }) => (
     </h1>
     <Row gutter={32} justify="center">
       {items.map(resource => (
-        <Col key={resource.title} sm={24} md={12} style={{ marginBottom: 60 }}>
+        <Col key={resource.title} md={24} lg={12} style={{ marginBottom: 60 }}>
           <ResourceCard {...resource} openModal={openModal} />
         </Col>
       ))}

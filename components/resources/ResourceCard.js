@@ -13,7 +13,12 @@ export default ({ logo, title, description, detailKey, openModal }) => (
     ]}
   >
     <Card.Meta
-      style={{ height: 180, textOverflow: 'ellipsis', overflow: 'hidden' }}
+      style={{
+        height: 180,
+        textOverflow: 'ellipsis',
+        overflow: 'hidden',
+        marginTop: 15,
+      }}
       avatar={<Avatar src={logo} />}
       title={title}
       description={description}
