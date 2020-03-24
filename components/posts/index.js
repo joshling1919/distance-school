@@ -25,11 +25,16 @@ export default ({ posts }) => (
             title={post.title}
             description={`by ${post.user.fullname}`}
           ></Card.Meta>
-          <p>
-            <i>{post.blurb}</i>
-          </p>
+          <p className="blurb">{post.blurb}</p>
         </Card>
       </Col>
     ))}
+    <style jsx>
+      {`
+        .blurb {
+          margin: 30px 15px 10px;
+        }
+      `}
+    </style>
   </Row>
 );
