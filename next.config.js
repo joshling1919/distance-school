@@ -6,6 +6,8 @@ module.exports = withLess({
     javascriptEnabled: true,
     modifyVars: {
       '@font-size-base': '16px',
+      '@text-color': 'rgba(0, 0, 0, 0.85)',
+      '@text-color-secondary': 'rgba(0, 0, 0, 0.80)',
     }, // make your antd custom effective
   },
   env: {
