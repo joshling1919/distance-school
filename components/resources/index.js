@@ -155,8 +155,10 @@ export default () => {
         </section>
       ))}
       <Modal
+        className="modal"
         centered={true}
         width="90%"
+        style={{ maxWidth: 960 }}
         visible={visible}
         title={detailsMap[detailKey].title}
         onCancel={() => setVisible(false)}

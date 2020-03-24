@@ -26,6 +26,7 @@ const Posts = ({ posts }) => {
         bodyStyle={{ height: '90vh' }}
         centered={true}
         width="90%"
+        style={{ maxWidth: 960 }}
         visible={visible}
         onCancel={() => setVisible(false)}
         footer={[
