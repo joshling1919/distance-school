@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Modal, Button } from 'antd';
 import Intro from '../../components/shared/Intro';
 import PostsComponent from '../../components/posts';
-import axios from 'axios';
+import articles from '../../public/data/articles.json';
 
-const Posts = ({ posts }) => {
+const Posts = () => {
   const [visible, setVisible] = useState(false);
 
   return (
@@ -21,7 +21,7 @@ const Posts = ({ posts }) => {
           </Button>
         </div>
       </Intro>
-      <PostsComponent posts={posts} />
+      <PostsComponent posts={articles} />
       <Modal
         bodyStyle={{ height: '90vh' }}
         centered={true}
@@ -56,13 +56,6 @@ const Posts = ({ posts }) => {
       `}</style>
     </div>
   );
-};
-
-Posts.getInitialProps = async () => {
-  const { data } = await axios(
-    'https://distance-school-server.herokuapp.com/articles'
-  );
-  return { posts: data };
 };
 
 export default Posts;
