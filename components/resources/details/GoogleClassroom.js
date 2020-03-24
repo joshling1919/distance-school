@@ -33,12 +33,6 @@ export default () => (
         <ul>
           <li>Login Required.</li>
           <li>Students can join a classroom through a link.</li>
-          <li>
-            <strong>
-              Google Classroom can only be used with students at a school. The
-              school must sign up for a free G Suite for Education account.
-            </strong>
-          </li>
         </ul>
       </Descriptions.Item>
       <Descriptions.Item label="Capabilities">
