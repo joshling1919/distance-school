@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'antd';
+import Intro from '../../components/shared/Intro';
 import PostsComponent from '../../components/posts';
 import axios from 'axios';
 
@@ -8,7 +9,7 @@ const Posts = ({ posts }) => {
 
   return (
     <div>
-      <div className="intro">
+      <Intro>
         <p>This page features thoughts and ideas from educators.</p>
         <p>
           We'd love to collaborate with you. If you'd like to share what you've
@@ -19,8 +20,7 @@ const Posts = ({ posts }) => {
             Share your thoughts
           </Button>
         </div>
-      </div>
-      <hr />
+      </Intro>
       <PostsComponent posts={posts} />
       <Modal
         bodyStyle={{ height: '90vh' }}
@@ -52,12 +52,6 @@ const Posts = ({ posts }) => {
           margin-bottom: 50px;
           display: flex;
           justify-content: center;
-        }
-        .intro {
-          margin-bottom: 30px;
-        }
-        hr {
-          margin-bottom: 30px;
         }
       `}</style>
     </div>

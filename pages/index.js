@@ -1,9 +1,10 @@
 import React from 'react';
 import Resources from '../components/resources';
+import Intro from '../components/shared/Intro';
 
 const Index = () => (
   <div>
-    <div className="intro">
+    <Intro>
       <p>
         Over the last week, several groups, such as{' '}
         <a
@@ -37,18 +38,10 @@ const Index = () => (
         intimidating. Our goal here is to simplify things by sharing what we
         think are the best tools to start with.
       </p>
-    </div>
-    <hr />
+    </Intro>
     <Resources />
 
     <style jsx>{`
-      .intro {
-        margin-bottom: 30px;
-      }
-      hr {
-        margin-bottom: 30px;
-      }
-
       h1 {
         margin: 20px 0;
       }

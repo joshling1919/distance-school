@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button } from 'antd';
+import Intro from '../components/shared/Intro';
 import AllQuestions from '../components/questions';
 
 const Questions = () => {
@@ -7,7 +8,7 @@ const Questions = () => {
 
   return (
     <div>
-      <div className="intro">
+      <Intro>
         <p>
           <strong>Have a question on what to do for your students?</strong>{' '}
           We're a group of teachers who would love to help, so please feel free
@@ -19,8 +20,7 @@ const Questions = () => {
           </Button>
         </div>
         <p>Below is a list of questions we've answered so far.</p>
-      </div>
-      <hr />
+      </Intro>
       <AllQuestions />
       <Modal
         bodyStyle={{ height: '90vh' }}
@@ -52,12 +52,6 @@ const Questions = () => {
           margin-bottom: 50px;
           display: flex;
           justify-content: center;
-        }
-        .intro {
-          margin-bottom: 30px;
-        }
-        hr {
-          margin-bottom: 30px;
         }
       `}</style>
     </div>
