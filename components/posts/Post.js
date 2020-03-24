@@ -16,30 +16,38 @@ function Image(props) {
   );
 }
 
-export default ({ article }) => (
-  <Typography>
+export default ({ article }) =>
+  article ? (
+    <Typography>
+      <div>
+        <a href="/posts">Back to all posts</a>
+      </div>
+      <h2>{article.title}</h2>
+      <div className="author-container">
+        <Avatar size="large" src={article.user.avatar[0].url} />{' '}
+        <span>{article.user.fullname}</span>
+      </div>
+      <Divider />
+      <div>
+        <ReactMarkdown source={article.content} renderers={{ image: Image }} />
+      </div>
+      <Divider />
+      <style jsx>{`
+        span {
+          margin-left: 10px;
+        }
+        .author-container {
+          margin-left: 15px;
+          display: flex;
+          align-items: center;
+        }
+      `}</style>
+    </Typography>
+  ) : (
     <div>
-      <a href="/posts">Back to all posts</a>
+      <p>That article could not be found!</p>
+      <p>
+        <a href="/posts">Back to all posts</a>
+      </p>
     </div>
-    <h2>{article.title}</h2>
-    <div className="author-container">
-      <Avatar size="large" src={article.user.avatar[0].url} />{' '}
-      <span>{article.user.fullname}</span>
-    </div>
-    <Divider />
-    <div>
-      <ReactMarkdown source={article.content} renderers={{ image: Image }} />
-    </div>
-    <Divider />
-    <style jsx>{`
-      span {
-        margin-left: 10px;
-      }
-      .author-container {
-        margin-left: 15px;
-        display: flex;
-        align-items: center;
-      }
-    `}</style>
-  </Typography>
-);
+  );

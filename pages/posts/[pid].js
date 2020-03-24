@@ -8,6 +8,7 @@ Post.getInitialProps = async ({ query }) => {
   const article = articles.find(
     ({ id }) => parseInt(id, 10) === parseInt(query.pid, 10)
   );
+
   return { article };
 };
 
