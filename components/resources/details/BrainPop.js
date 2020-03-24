@@ -34,7 +34,7 @@ export default () => (
       </Descriptions.Item>
       <Descriptions.Item label="Cost">
         BrainPOP is providing{' '}
-        <Anchor text="free access" href="https://go.brainpop.com/COVID19" /> too
+        <Anchor text="free access" href="https://go.brainpop.com/COVID19" /> to
         all families and schools during this time.
       </Descriptions.Item>
       <Descriptions.Item label="Login in Requirements">
