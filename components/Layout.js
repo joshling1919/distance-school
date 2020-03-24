@@ -1,4 +1,5 @@
 import Header from './header';
+import { Divider } from 'antd';
 import { media } from '../theme';
 
 const Layout = props => (
@@ -6,6 +7,7 @@ const Layout = props => (
     <div className="layout">
       <Header />
       <div className="content">{props.children}</div>
+      <Divider />
     </div>
     <style jsx>{`
       .layout {
