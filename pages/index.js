@@ -6,7 +6,7 @@ const Index = () => (
   <div>
     <Intro>
       <p>
-        Over the last week, several groups, such as{' '}
+        Over the last week, multiple organizations, such as{' '}
         <a
           href="https://www.techforlearners.org/"
           target="_blank"
@@ -34,7 +34,7 @@ const Index = () => (
         parents can turn to.
       </p>
       <p>
-        The vast amount of available resources can be both encouraging and
+        The vast amount of available resources is both encouraging and somewhat
         intimidating. Our goal here is to simplify things by sharing what we
         think are the best tools to start with.
       </p>
