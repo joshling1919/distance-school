@@ -1,5 +1,6 @@
 import { Row, Col, Card, Avatar } from 'antd';
 import { EllipsisOutlined } from '@ant-design/icons';
+import urlSlug from 'url-slug';
 import Router from 'next/router';
 
 export default ({ posts }) => (
@@ -9,10 +10,10 @@ export default ({ posts }) => (
         <Card
           style={{ margin: '0 auto' }}
           actions={[
-            <div onClick={() => Router.push(`/posts/${post.id}`)}>
+            <a href={`/posts/${urlSlug(post.title)}`}>
               <div>Read</div>
               <EllipsisOutlined key="read-more" />
-            </div>,
+            </a>,
           ]}
         >
           <Card.Meta
