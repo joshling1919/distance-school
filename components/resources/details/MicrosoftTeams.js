@@ -20,7 +20,7 @@ export default () => (
       browser. Due to its native integration with office applications it
       provides added benefits and is easy to transition for groups already using
       Microsoft products. For example, teams allow you to sync meetings with
-      Outlook in advance, which allows individuals to receive and alert through
+      Outlook in advance, which allows individuals to receive an alert through
       Outlook calendar before a meeting begins.
     </p>
 
@@ -54,7 +54,7 @@ export default () => (
       </Descriptions.Item>
       <Descriptions.Item label="Login in Requirements">
         Login Required, The Microsoft Teams is both a standalone application and
-        available in with the purchase of Office 365 ProPlus.
+        available with the purchase of Office 365 ProPlus.
       </Descriptions.Item>
       <Descriptions.Item label="Capacity">
         Basic Version: Up to 250 individuals and 8 Hour duration for “Meet Now”
@@ -63,11 +63,20 @@ export default () => (
         <ul>
           <li>
             <a
-              href="https://www.youtube.com/watch?v=CH2seLS5Wb0"
+              href="https://www.youtube.com/watch?v=v2DorZg9m20"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Teams Tutorial and Overview
+              Teams Online Lectures and Classrooms: Part 1
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=Jqyg-PSP1AU"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Teams Online Lectures and Classrooms: Part 2
             </a>
           </li>
           <li>
@@ -87,15 +96,6 @@ export default () => (
               rel="noopener noreferrer"
             >
               Teams Overview for Attendees/Students
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/watch?v=NcbQ2UK69Tc"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Demo: Teams in the Classroom at Microsoft
             </a>
           </li>
         </ul>
